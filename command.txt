@@ -1,0 +1,13 @@
+chmod +x /path/to/your_script.sh
+
+
+ln -s /path/to/your_script.sh /usr/local/bin/your_script
+
+
+export PATH="/usr/local/bin:$PATH"
+
+
+source ~/.bashrc  # or ~/.bash_profile, ~/.zshrc, etc.
+
+
+your_script
