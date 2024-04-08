@@ -5,7 +5,6 @@
 if grep -q "^export cheetsheet_path=" ~/.bashrc; then
     echo "${cheetsheet_path} is defined in ~/.bashrc."
 
-
 else 
     echo "${cheetsheet_path} is not defined in ~/.bashrc."
     chosen_directory=$(zenity --file-selection --directory --title="Choose a Cheetsheets Folder")
